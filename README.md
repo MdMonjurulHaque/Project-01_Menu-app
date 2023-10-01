@@ -1,7 +1,7 @@
 # Project-01_MenuApp
-This project created for Restaurant menu app.  <br>
+This project created for Restaurant menu app. 
 # Using_language 
   1. JavaScript
-# FrameWork  <br>
+# FrameWork 
   3. ReactJS
 
