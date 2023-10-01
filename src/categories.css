@@ -1,0 +1,26 @@
+.container-btn{
+    display: flex;
+    justify-content: center;
+
+padding: 5px;
+gap: 10px;
+
+}
+.categories-btn{
+    padding: 1rem;
+    min-width: 100px;
+    border-color: transparent;
+    transition: all 0.3s;
+    font-weight: bold;
+    background: rgb(188, 223, 243);
+   
+    
+    
+}
+
+.categories-btn:hover{
+    cursor: pointer;
+    border: 2px solid  rgb(223, 185, 128);
+    letter-spacing: 2px;
+   
+}

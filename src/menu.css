@@ -1,0 +1,56 @@
+.section-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-gap: 10px;
+  
+}
+.article-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(188, 223, 243); */
+  padding: 1rem;
+
+}
+article img {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(223, 185, 128);
+  display: block;
+}
+
+.food-info {
+  padding: 0 0.5rem;
+  
+  
+}
+.name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted gray;
+  
+}
+.desc{
+  margin-top: 5px;
+}
+.price{
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: rgb(204, 134, 5)
+}
+
+/* @media screen and (min-width: 1200px) {
+  .article-container {
+    display: flex;
+    flex-direction: column;
+       
+    }
+} */
+@media screen and (min-width: 500px) {
+  .article-container {
+    display: flex;
+    flex-direction: row;
+       
+    }
+}
